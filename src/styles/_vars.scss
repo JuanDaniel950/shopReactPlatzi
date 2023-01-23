@@ -1,10 +1,25 @@
 :root {
-    --white: #FFFFFF;
-    --black: #000000;
-    --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
-    --sm: 14px;
-    --md: 16px;
-    --lg: 18px;
-  }
+  --hospital-green: #acd9b2;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --dark: #232830;
+  --white: #ffffff;
+  --black: #000000;
+  --font-primary: 'Quicksand', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+  --font-smaller: 0.75rem;
+  --font-small: 0.875rem;
+  --font-regular: 1rem;
+  --font-big: 1.125rem;
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-1-75: 1.75rem;
+  --mb-2: 2rem;
+  --mb-3: 3rem;
+  --border-radius: 4px;
+  --card-size: 15rem
+}

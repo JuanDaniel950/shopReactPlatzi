@@ -1,9 +1,16 @@
+import ProductItem from '@components/productItem';
 import React from 'react'
-
+import "./../styles/ProductList.scss"
 
 const ProductList = () => {
     return (
-        <h1>ProductList</h1>
+        <section className='main-container'>
+
+            <div className='ProductList'>
+                <ProductItem />
+            </div>
+
+        </section>
     );
 }
 

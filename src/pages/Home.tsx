@@ -1,7 +1,11 @@
+import ProductList from "@containers/ProductList";
 import React from "react";
-
 const Home = () => {
-  return <div className="home">hola</div>;
+  return (
+    <>
+      <ProductList />
+    </>
+  );
 };
 
 export default Home;

@@ -27,6 +27,9 @@
       "@components/*": [
         "./components/*"
       ],
+      "@icons/*": [
+        "./assets/icons/*"
+      ],
       "@containers/*": [
         "./containers/*"
       ],
