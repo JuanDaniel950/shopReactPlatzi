@@ -6,11 +6,21 @@ import path from "path";
 export default defineConfig({
   resolve: {
     alias: [
-    { find: "@components", replacement: path.resolve(__dirname, "src/components") },
-    { find: "@containers", replacement: path.resolve(__dirname, "src/containers") },
-    { find: "@pages", replacement: path.resolve(__dirname, "src/pages") },
-    { find: "@icons", replacement: path.resolve(__dirname, "src/assets/icons") }
-  ],
+      {
+        find: "@components",
+        replacement: path.resolve(__dirname, "src/components"),
+      },
+      {
+        find: "@containers",
+        replacement: path.resolve(__dirname, "src/containers"),
+      },
+      { find: "@pages", replacement: path.resolve(__dirname, "src/pages") },
+      {
+        find: "@icons",
+        replacement: path.resolve(__dirname, "src/assets/icons"),
+      },
+      { find: "@styles", replacement: path.resolve(__dirname, "src/styles") },
+    ],
   },
   plugins: [react()],
 });

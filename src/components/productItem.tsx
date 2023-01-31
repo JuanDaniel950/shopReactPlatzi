@@ -8,7 +8,7 @@ const ProductItem = (product: Product) => {
   const { addToCart } = useContext<any>(AppContext);
   const handleClick = (productSelected: Product) => {
     console.log(productSelected);
-    //addToCart(productSelected);
+    addToCart(productSelected);
   };
   return (
     <div className="ProductItem">

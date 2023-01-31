@@ -33,6 +33,9 @@
       "@containers/*": [
         "./containers/*"
       ],
+      "@styles/*": [
+        "./styles/*"
+      ],
     }
   },
   "include": [
