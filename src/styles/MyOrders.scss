@@ -58,6 +58,11 @@
 	font-weight: bold;
 	height: 50px;
 }
+
+.btn-close:hover {
+	cursor: pointer;
+	background-color: var(--hospital-green);
+}
 @media (max-width: 640px) {
 	.MyOrder {
 		width: 100%;
